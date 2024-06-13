@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th,
+        form {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2"></td>
+            <th colspan="4">Demografia</th>
+        </tr>
+        <tr>
+            <th>Meninos</th>
+            <th>Meninas</th>
+            <th>Professor</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Turmas</th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <td>20</td>
+            <td>5</td>
+            <td rowspan="2">João Pedro</td>
+        </tr>
+        <tr>
+            <th>B</th>
+            <td>21</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>C</th>
+            <td>25</td>
+            <td>2</td>
+            <td rowspan="2">Maria João</td>
+        </tr>
+        <tr>
+            <th>D</th>
+            <td>20</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th colspan="2">Total</th>
+            <td>86</td>
+            <td>10</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <h2>Apresentação Formulários</h2>
+
+    <form action="#">
+        <label for="meuID">Rótulo da Informação</label>
+        <br>
+        <input type="text" id="meuID">
+        <br>
+        <label for="numero">Número</label>
+        <br>
+        <input type="number" id="numero" value="" min="10">
+        <br>
+        <label for="mail">Email</label>
+        <br>
+        <input type="email" name="" id="mail" placeholder="exemplo@email.com">
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" name="" id="senha">
+        <br>
+        <label for="">Checkbox</label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="feminino">
+        <label for="f">Feminino</label>
+        <input type="checkbox" name="selecao" id="m">
+        <label for="m">Masculino</label>
+        <br>
+        <label for="">Seleção Única</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Primeira Seleção</label>
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">Segunda Seleção</label>
+        <br>
+        <label for="selects">Selecione</label>
+        <select name="selects" id="selects">
+            <option value="1" disabled>Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Três</option>
+        </select>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+    </form>
+</body>
+
+</html>
