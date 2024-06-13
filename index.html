@@ -9,7 +9,8 @@
         table,
         tr,
         td,
-        th {
+        th,
+        form {
             border: solid 1px;
             border-collapse: collapse;
         }
@@ -59,6 +60,49 @@
             <td>2</td>
         </tr>
     </table>
+
+    <h2>Apresentação Formulários</h2>
+
+    <form action="#">
+        <label for="meuID">Rótulo da Informação</label>
+        <br>
+        <input type="text" id="meuID">
+        <br>
+        <label for="numero">Número</label>
+        <br>
+        <input type="number" id="numero" value="" min="10">
+        <br>
+        <label for="mail">Email</label>
+        <br>
+        <input type="email" name="" id="mail" placeholder="exemplo@email.com">
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" name="" id="senha">
+        <br>
+        <label for="">Checkbox</label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="feminino">
+        <label for="f">Feminino</label>
+        <input type="checkbox" name="selecao" id="m">
+        <label for="m">Masculino</label>
+        <br>
+        <label for="">Seleção Única</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Primeira Seleção</label>
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">Segunda Seleção</label>
+        <br>
+        <label for="selects">Selecione</label>
+        <select name="selects" id="selects">
+            <option value="1" disabled>Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Três</option>
+        </select>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+    </form>
 </body>
 
 </html>
