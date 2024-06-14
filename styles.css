@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table,
+th,
+td,
+tr,
+form {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.div1 {
+    background-color: blue;
+    color: black;
+    min-width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.div2 {
+    background-color: aqua;
+    color: black;
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+
+.div3 {
+    background-color: red;
+    color: black;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+a {
+    display: block;
+}
+
+header {
+    border: solid 5px red;
+    background: lightblue;
+    margin: 10px 25px 0px 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
