@@ -48,3 +48,31 @@ header {
     padding: 10px;
     border-radius: 10px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    border: solid 5px purple;
+    padding: 15px;
+    height: 400px;
+}
+
+.vermelho {
+    background-color: red;
+    width: 150px;
+}
+
+.verde {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+
+.azul {
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+}
